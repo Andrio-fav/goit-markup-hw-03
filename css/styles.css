@@ -5,10 +5,11 @@ body {
 }
 
 .hdrcontr {
+    border-bottom: 1px solid #e7e9fc;
     display: flex;
     align-items: center;
     height: 72px;
-    border-bottom: 1px solid #e7e9fc;
+
 }
 
 .container {
@@ -83,6 +84,11 @@ ul {
 
 button {
     cursor: pointer;
+}
+
+img {
+    display: block;
+    width: 100%;
 }
 
 .address {
@@ -170,14 +176,11 @@ button {
 .namop {
     gap: 24px;
     display: flex;
+    padding: 120px 0;
 }
 
 .cli {
     width: calc((100% - 72px) / 4);
-}
-
-.sptd {
-    padding: 120px 0;
 }
 
 .visually-hidden {
@@ -244,7 +247,8 @@ button {
     width: 264px;
     height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    border-radius: 0 4px;
+    border-radius: 0px 0px 4px 4px;
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .thum {
