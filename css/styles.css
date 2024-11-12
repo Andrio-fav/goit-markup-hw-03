@@ -4,8 +4,12 @@ body {
     background-color: #FFFFFF;
 }
 
+.header {
+   border-bottom: 1px solid #e7e9fc; 
+}
+
 .hdrcontr {
-    border-bottom: 1px solid #e7e9fc;
+    
     display: flex;
     align-items: center;
     height: 72px;
@@ -121,13 +125,13 @@ img {
 
 .hero {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 
 
 .hcontr {
-    padding-top: 188px;
-    padding-bottom: 188px;
     display: block;
 }
 
@@ -173,10 +177,13 @@ img {
     cursor: pointer;
 }
 
+.spdt {
+   padding: 120px 0; 
+}
+
 .namop {
     gap: 24px;
     display: flex;
-    padding: 120px 0;
 }
 
 .cli {
