@@ -8,6 +8,7 @@ body {
     display: flex;
     align-items: center;
     height: 72px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
@@ -23,6 +24,7 @@ body {
     display: flex;
     background: #FFFFFF;
     align-items: center;
+    padding: 24px 0;
 }
 
 .logo {
@@ -45,12 +47,14 @@ body {
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    padding: 24px 0;
 }
 
 .navm {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .nav {
@@ -59,6 +63,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .nav:hover,
@@ -84,6 +89,7 @@ button {
     font-style: normal;
     display: flex;
     margin-left: auto;
+    padding: 24px 0;
 }
 
 .address-list {
@@ -100,6 +106,7 @@ button {
     color: #434455;
     font-family: inherit;
     align-items: center;
+    padding: 24px 0;
 }
 .address-item .link:hover,
 .address-item .link:focus {
@@ -110,8 +117,11 @@ button {
     background-color: #2e2f42;
 }
 
+
+
 .hcontr {
-    padding: 188px 472px;
+    padding-top: 188px;
+    padding-bottom: 188px;
     display: block;
 }
 
@@ -166,6 +176,10 @@ button {
     width: calc((100% - 72px) / 4);
 }
 
+.sptd {
+    padding: 120px 0;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -174,6 +188,7 @@ button {
     border: 0;
     white-space: nowrap;
     clip-path: inset(100%);
+    clip: rect(0, 0, 0, 0);
     overflow: hidden;
 }
 
@@ -183,6 +198,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .htxt {
@@ -338,4 +354,19 @@ button {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
+.flogo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    padding: 24px 0;
+    margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 
