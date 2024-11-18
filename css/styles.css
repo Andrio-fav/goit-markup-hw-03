@@ -9,27 +9,22 @@ body {
 }
 
 .hdrcontr {
-    
     display: flex;
     align-items: center;
-    height: 72px;
-
 }
 
 .container {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
+    margin-left: auto 0;
+    margin-right: auto 0;
 }
 
 .navig {
     display: flex;
     background: #FFFFFF;
     align-items: center;
-    padding: 24px 0;
 }
 
 .logo {
@@ -46,20 +41,12 @@ body {
 
 .studiologo {
     color: #2e2f42;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    padding: 24px 0;
 }
 
 .navm {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .nav {
@@ -69,6 +56,7 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+    display: block;
 }
 
 .nav:hover,
@@ -97,16 +85,13 @@ img {
 
 .address {
     font-style: normal;
-    display: flex;
-    margin-left: auto;
-    padding: 24px 0;
+    margin-left: auto 0;
 }
 
 .address-list {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .address-item .link {
@@ -117,6 +102,7 @@ img {
     font-family: inherit;
     align-items: center;
     padding: 24px 0;
+    display: block;
 }
 .address-item .link:hover,
 .address-item .link:focus {
@@ -145,15 +131,14 @@ img {
     text-align: center;
     color: #ffffff;
     margin-bottom: 48px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto 0;
+    margin-right: auto 0;
 }
 
 .btn {
     border-radius: 4px;
-    margin-top: 45px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto 0;
+    margin-right: auto 0;
     padding: 16px 32px;
     min-width: 169px;
     min-height: 56px;
@@ -224,9 +209,7 @@ img {
 }
 
 .contrt {
-    padding: 32px 0;
-    text-align: center;
-    margin-bottom: 8px;
+
 }
 
 .shd {
@@ -240,19 +223,15 @@ img {
     color: #2e2f42;
     background-color: #f4f4fd;
     margin-bottom: 72px;
-    padding-top: 120px;
 }
 
 .tsect {
     display: flex;
     gap: 24px;
-    flex-wrap: wrap;
 }
 
 .lit {
     background-color: #FFFFFF; 
-    width: 264px;
-    height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     flex-basis: calc((100% - 72px) / 4);
@@ -261,7 +240,6 @@ img {
 .thum {
     padding: 32px 0;
     text-align: center;
-    margin-bottom: 8px;
 }
 
 .human {
@@ -312,13 +290,7 @@ img {
 }
 
 .portfl {
-    margin-top: 72px;
-    gap: 24px;
-    border: 1px solid #e7e9fc;
     width: calc((100% - 48px) / 3);
-    flex-direction: row;
-    flex-wrap: wrap;
-
 }
 
 .ptn {
@@ -374,8 +346,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    padding: 24px 0;
-    margin-right: 76px;
     display: inline-block;
     margin-bottom: 16px;
 }
