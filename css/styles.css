@@ -17,8 +17,8 @@ body {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: auto 0;
-    margin-right: auto 0;
+    margin-left: auto ;
+    margin-right: auto ;
 }
 
 .navig {
@@ -85,7 +85,7 @@ img {
 
 .address {
     font-style: normal;
-    margin-left: auto 0;
+    margin-left: auto ;
 }
 
 .address-list {
@@ -131,14 +131,14 @@ img {
     text-align: center;
     color: #ffffff;
     margin-bottom: 48px;
-    margin-left: auto 0;
-    margin-right: auto 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn {
     border-radius: 4px;
-    margin-left: auto 0;
-    margin-right: auto 0;
+    margin-left: auto;
+    margin-right: auto;
     padding: 16px 32px;
     min-width: 169px;
     min-height: 56px;
@@ -194,6 +194,8 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    width: auto;
+    height: auto;
 }
 
 .htxt {
@@ -201,15 +203,13 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    width: auto;
+    height: auto;
 }
 
 .sect {
     background-color: #F4F4FD;
     padding: 120px 0;
-}
-
-.contrt {
-
 }
 
 .shd {
@@ -327,6 +327,7 @@ img {
 }
 
 .ftxt {
+    width: 264px;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
